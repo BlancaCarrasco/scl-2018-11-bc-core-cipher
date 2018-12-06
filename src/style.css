@@ -1,11 +1,42 @@
 /* Acá va tu código */
 body {
   text-align: center;
+  background-image:url(imagenes/fondo\ marca\ de\ agua\(1\).jpg);
+  background-color: transparent;
+  background-position: center top 50%,0;
+  
 }
-
 p {
-  line-height: 2;
+  font-size: 20px;
+  line-height: 0.5;
   font-weight: bold;
 }
 
+H1 {font-size: 60px;
+  color:rgb(17, 32, 4);
+}
 
+.button {
+  font-size:15px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:black;
+  font-style: italic;
+  background:#d66543;
+  border-radius: 6px;
+  border:03px double;
+  width:150px;
+  height:30px;
+}
+#mensajeACifrar {
+height: 70px;
+width: 200px;
+border-radius: 6px;
+border:03px double;
+}
+
+#desplazamientos{
+  border-radius: 6px;
+border:03px double;
+
+}
