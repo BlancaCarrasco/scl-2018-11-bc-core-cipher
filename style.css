@@ -1,1 +1,11 @@
 /* Acá va tu código */
+body {
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+  font-weight: bold;
+}
+
+

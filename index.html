@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Código César</title>
+  <h1> Código César</h1>
+      <hr>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+  <input type="button" value="instrucciones" onclick="alert('HOLA, ESCRIBE TU MENSAJE, PERO LA LETRA Ñ SUSTITUYELA POR LA LETRA N, OMITE CUALQUIER CARACTER ESPECIAL, la clave es un número que solo tu vas a saber, y la puedes compartir con quien quieras que descifre tu mensaje');" />
+
+  <h1>¡BIENVENID@!</h1>
+  <p> ¡Ahora puedes crear mensajes ocultos y compartirlos con quien tu quieras!</p>
+
+  <p>Coloca aqui Tu mensaje</p>
+  <input type="text" id="mensajeACifrar" /><br>
+  <p>clave</p>
+  <input type="text" id="desplazamientos" /><br>
+  <hr/>
+
+
+  <input type="button" value="Encriptar" id="cifrado">
+  <input type="button" value="Desencriptar" id="descifrado"><br>
+
+
+  <div id="mostrarMensaje"></div>
+
+  <div id="root">
+    <h1></h1>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
