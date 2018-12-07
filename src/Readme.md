@@ -7,7 +7,7 @@ Esta página esta enfocada a la codificación de mensajes, utilizando el código
 
 Puede ser utilizada por cualquier usuario, pero el contexto que se le ha dado ha sido para parejas, quienes quieran enviar mensajes sin que otra persona ajena a la relación pueda leerlos.
  
- [Imagen de fondo]("imagenes/fondo\ pagina\ web.jpg">)
+ ![Imagen de fondo](src/imagenes/fondo marca de agua(1).jpg)
 
 # Archivos
 
