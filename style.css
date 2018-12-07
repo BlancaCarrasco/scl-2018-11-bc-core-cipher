@@ -8,7 +8,7 @@ body {
 }
 p {
   font-size: 20px;
-  line-height: 0.5;
+  line-height: 0.2;
   font-weight: bold;
 }
 
@@ -33,10 +33,16 @@ height: 70px;
 width: 200px;
 border-radius: 6px;
 border:03px double;
+font-size:20px;
 }
 
 #desplazamientos{
-  border-radius: 6px;
+border-radius: 6px;
 border:03px double;
-
+font-size:20px;
+height: 40px;
+width: 80px;
+}
+.mostrarMensaje{
+  font-size:20px;
 }
