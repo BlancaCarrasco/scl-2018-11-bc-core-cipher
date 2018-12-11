@@ -7,12 +7,12 @@ body {
   
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 0.2;
   font-weight: bold;
 }
 
-H1 {font-size: 60px;
+H1 {font-size: 50px;
   color:rgb(17, 32, 4);
 }
 
@@ -34,6 +34,7 @@ width: 200px;
 border-radius: 6px;
 border:03px double;
 font-size:20px;
+text-align: center;
 }
 
 #desplazamientos{
@@ -42,7 +43,8 @@ border:03px double;
 font-size:20px;
 height: 40px;
 width: 80px;
+text-align: center;
 }
 .mostrarMensaje{
-  font-size:20px;
+  font-size:40px;
 }

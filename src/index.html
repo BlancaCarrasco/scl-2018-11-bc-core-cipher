@@ -18,8 +18,8 @@
   <h1>¡BIENVENID@!</h1>
   <p> ¡Ahora puedes crear mensajes ocultos y compartirlos con quien tu quieras!</p>
 
-  <p>Coloca aqui Tu mensaje</p>
-  <input type="text" id="mensajeACifrar" /><br>
+  <p><textarea id="mensajeACifrar" placeholder="Escribe tu mensaje aquí!"></textarea></p>
+  <!--<input type="text" id="mensajeACifrar" /><br>-->
   <p>Clave numérica</p>
   <input type="text" id="desplazamientos" /><br>
   <hr/>
@@ -27,10 +27,12 @@
 
   <input type="submit" class="button" value="Encriptar" id="cifrado">
   <input type="submit" class="button" value="Desencriptar" id="descifrado"><br>
+  
 
-  <div id="mostrarMensaje"></div>
+  <p><textarea id="mostrarMensaje" ></textarea></p>
+  <!--<div id="mostrarMensaje"></div>-->
 
-  <div id="root">
+  <!--<div id="root">-->
 
   </div>
   <script src="cipher.js"></script>
